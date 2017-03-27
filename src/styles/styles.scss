@@ -1,0 +1,10 @@
+$topnav-main-background: #00003e;
+$topnav-link-color: #fff;
+
+div.row {
+	background-color: $topnav-main-background;
+}
+
+a {
+	color: $topnav-link-color;
+}

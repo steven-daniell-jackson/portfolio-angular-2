@@ -1,0 +1,15 @@
+$topnav-main-background: #00003e;
+$topnav-link-color: #fff;
+
+div.row {
+	padding: 10px 0;
+	background-color: $topnav-main-background;
+}
+
+a {
+	color: $topnav-link-color;
+}
+
+.navbar {
+   margin:0;
+}
