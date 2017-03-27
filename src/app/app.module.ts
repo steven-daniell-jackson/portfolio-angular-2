@@ -6,12 +6,18 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NavTopComponent } from './nav-top/nav-top.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
+import { FooterComponent } from './footer/footer.component';
+import { ContentComponent } from './content/content.component';
+import { TasklistComponent } from './tasklist/tasklist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavTopComponent,
-    SideNavComponent
+    SideNavComponent,
+    FooterComponent,
+    ContentComponent,
+    TasklistComponent
   ],
   imports: [
     BrowserModule,
