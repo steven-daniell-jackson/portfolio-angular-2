@@ -2,7 +2,7 @@ $topnav-main-background: #00003e;
 $topnav-link-color: #fff;
 
 div.row {
-	padding: 10px 0;
+	padding: 25px 0;
 	background-color: $topnav-main-background;
 }
 
@@ -11,5 +11,13 @@ a {
 }
 
 .navbar {
-   margin:0;
+   // margin:0;
+}
+
+.navbar-right {
+	padding-right: 20px;
+}
+
+.navbar-left {
+	padding-left: 20px;
 }

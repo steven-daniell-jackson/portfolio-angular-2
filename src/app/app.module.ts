@@ -9,6 +9,8 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
 import { TasklistComponent } from './tasklist/tasklist.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { TasklistComponent } from './tasklist/tasklist.component';
     SideNavComponent,
     FooterComponent,
     ContentComponent,
-    TasklistComponent
+    TasklistComponent,
+    HomepageComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
