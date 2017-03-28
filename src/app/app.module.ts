@@ -11,6 +11,9 @@ import { ContentComponent } from './content/content.component';
 import { TasklistComponent } from './tasklist/tasklist.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { CardComponent } from './card/card.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { HistoryComponent } from './history/history.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { CardComponent } from './card/card.component';
     ContentComponent,
     TasklistComponent,
     HomepageComponent,
-    CardComponent
+    CardComponent,
+    ExperienceComponent,
+    HistoryComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
