@@ -1,4 +1,4 @@
-$topnav-main-background: #00003e;
+$topnav-main-background: #000;
 $topnav-link-color: #fff;
 
 div.row {
@@ -6,9 +6,29 @@ div.row {
 	background-color: $topnav-main-background;
 }
 
-a {
-	color: $topnav-link-color;
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: $topnav-link-color;
 }
+
+.navbar-nav > li {
+   background-color: $topnav-main-background ;
+    color: $topnav-link-color;
+}
+
+
+.navbar-nav > li :hover {
+   background-color: lighten($topnav-main-background,20%) ;
+    color: $topnav-link-color;
+}
+
+.navbar-nav > li :focus {
+   background-color: lighten($topnav-main-background,20%) ;
+    color: $topnav-link-color;
+}
+
 
 .navbar {
    // margin:0;

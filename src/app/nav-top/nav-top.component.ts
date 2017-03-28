@@ -7,15 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavTopComponent implements OnInit {
 
-counterValue = 1;
-
   constructor() {}
-
-
-get counter(){
-return this.counterValue;
-}
-
 
   ngOnInit() {}
 
