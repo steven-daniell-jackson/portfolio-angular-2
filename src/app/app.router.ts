@@ -12,9 +12,9 @@ import {HistoryComponent} from './history/history.component';
 export const router: Routes = [
 {path: '', component: HomepageComponent},
 {path: 'home', component: HomepageComponent},
-{path: 'contact', component: ContactComponent}
+{path: 'contact', component: ContactComponent},
 {path: 'experience', component: ExperienceComponent},
-{path: 'history', component: HistoryComponent},
+{path: 'history', component: HistoryComponent}
 
 ];
 
